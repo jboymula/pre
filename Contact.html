@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Contact</title>
+<style>
+    h1 {
+        text-align: center;
+    }
+    body {
+        background-image: url("pic4.gif");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: black;
+        text-align: center;
+    }
+    .social-buttons a {
+        text-align: center;
+        display: inline-block;
+        margin: 0 10px;
+        text-decoration: none;
+        color: White;
+        background-color: red;
+        padding: 20px; 
+        border-radius: 50%;
+    }
+    .social-buttons i {
+        font-size: 36px; 
+    }
+    .home-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: pink;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+    }
+    .home-button a {
+        color: white;
+        text-decoration: none;
+    }
+    .home-button:hover {
+        background-color: #0056b3;
+    }
+    .message {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+    }
+    .waving-hand {
+        font-size: 3rem;
+        animation: wave 2s infinite;
+    }
+    @keyframes wave {
+        0% { transform: rotate(0deg); }
+        25% { transform: rotate(-30deg); }
+        50% { transform: rotate(0deg); }
+        75% { transform: rotate(30deg); }
+        100% { transform: rotate(0deg); }
+    }
+    .music-player {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .music-player audio {
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+
+<h1>My Contact</h1>
+
+<p class="message"><strong>Feel free to reach out in my contact!!!</strong></p>
+
+<div class="social-buttons">
+    <a href="https://www.facebook.com/earljohn.baldonmula" target="_blank"><img src="Facebook_icon.png" alt="Facebook" style="width: 40px; height: 40px;"></a>
+    <a href="https://www.youtube.com/@jboymula7388" target="_blank"><img src="youtube.png" alt="Youtube" style="width: 40px; height: 40px;"></a>
+    <a href="https://www.instagram.com/earlaloyyyyy?igsh=MXAwMDBhN3ZxZzZ3Yw%3D%3D&utm_source=qr" target="_blank"><img src="instagram.jpg" alt="Instagram" style="width: 40px; height: 40px;"></a>
+</div>
+
+<div class="home-button">
+    <a href="index.html">Home</a>
+</div>
+
+<div class="waving-hand">&#128075;</div>
+
+</body>
+</html>

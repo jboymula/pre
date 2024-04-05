@@ -1,0 +1,80 @@
+audio {
+		position: fixed; 
+        bottom: 40px; 
+        right: 60px; 
+        background-color: orange; 
+        color: gold; 
+        padding: 10px 20px; 
+        border-radius: 5px; 
+        text-decoration: none; 
+		}	
+
+#container {
+		text-align: center;
+		position: center; 
+		right: 60px; 
+		bottom: 290px;
+		border-radius: 20px; 
+		height: 250px;
+		width: 290px;
+		background-color: red;
+		margin-top: 20px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+	}
+
+	#container img {
+		width: 250px;
+		height: 200px; 
+		display: block;
+	}
+	
+nav {
+      background-color: gold;
+      padding: 15px 20px;
+      text-align: right;
+	  margin-left: 70px;
+    }
+	
+
+nav a {
+       margin: 0 20px;;
+	   margin-left: 70px;
+	   margin-right: 20px;
+       color: black;
+       position: relative;
+	   text-decoration: none; 
+	   font-size: 20px;
+	   
+       }
+	  
+nav a:after {
+       content: '';
+       display: block;
+       width: 0;
+       height: 2px;
+       background-color: pink;
+       position: absolute;
+       bottom: -2px;
+       left: 0;
+       transition: width 0.3s ease;
+        }
+        nav a:hover:after {
+            width: 100%;
+        }
+
+.btn {
+
+  background-color: pink; 
+  position: fixed; 
+  bottom: 40px; 
+  right: 60px; 
+  border: none; 
+  color: white; 
+  padding: 12px 16px; 
+  font-size: 16px; 
+  cursor: pointer; 
+}
+
+

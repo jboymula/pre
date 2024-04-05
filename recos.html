@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Recommendations</title>
+    <style>
+        h2 {
+            font-size: 35px;
+        }
+        body {
+            background-image: url("pic4.gif");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: monospace;
+            color: white;
+            font-size: 25px;
+        }
+        
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            border: 3px solid gold;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .video-holder {
+            text-align: center;
+        }
+		.home-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: pink;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+    }
+
+    .home-button a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .home-button:hover {
+        background-color: #0056b3;
+    }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align: center;">My Videos</h2>
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Video</th>
+    </tr>
+    <tr>
+        <td>My TikTok</td>
+        <td><strong>I edited my basketball highlights in tiktok.</strong></video></td>
+        <td class="video-holder"><video width="320" height="240" controls><source src="me1.mp4" type="video/mp4"></video></td>
+    </tr>
+    <tr>
+        <td>My TikTok</td>
+        <td><strong>Me and my friends are doing tiktok.</strong></td>
+        <td class="video-holder"><video width="320" height="240" controls><source src="me2.mp4" type="video/mp4"></video></td>
+    </tr>
+</table>
+
+<div class="home-button">
+    <a href="index.html">Home</a>
+  </div>
+</body>
+</html>
